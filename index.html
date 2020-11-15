@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexshopping</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+
+    header{
+        text-align:center;
+        height:25vh;
+        background-color:orange;
+    }
+    .introduction{
+        background-image:url(images/macbook.jpg);
+        background-size:cover;
+        background-attachment:fixed;
+        height:70vh;
+        
+    }
+    .welcome{
+        font-size:40px;
+        color:black;
+        align:center;
+        display:inline block;
+    }
+    .products{
+     background-color:grey;
+     
+    }
+   .btn {
+    margin: auto;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #d6a844;
+    text-align: center;
+   }
+   .btn a{
+       color:white;
+   }
+   .product_wrapper .name {
+    font-weight:bold;
+    }
+   .product_wrapper .buy {
+    text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+    
+   }
+   .product_wrapper .buy:hover {
+    background: #f17e0a;
+    border-color: #f17e0a;
+   }
+   .product_wrapper {
+    padding: 5px;
+    text-align: center;
+    display:inline-flex;
+    
+    }
+    .foot{
+        height:50vh;
+        background-color:black;
+
+    }
+    .container{
+        display:flex;
+        color:white;
+    }
+    img{
+        height:200px;
+        width:170px;
+    }
+    .wrapper{
+  background-image: url(../images/macbook.jpg);
+  background-attachment:fixed;
+               background-size:cover;
+               width: 100%;
+                margin: auto;
+                height: 100vh;
+                overflow: hidden;
+                text-decoration:none;
+}
+.top-items{
+ 
+  padding: 5px;
+    text-align: center;
+    display:inline-flex;
+    
+    background-color:wheat;
+    width:100%;
+}
+.desktop{
+ 
+}
+
+.oppo{
+  float: none;
+  margin-left: 50px;
+}
+.navtop {
+  background-color: #2f3947;
+  height:50px;
+	width: 100%;
+	border: 0;
+}
+.dealers{
+  font-size:60px;
+  color:slategrey;
+  text-align:center;
+}
+  
+    
+    </style>
+</head>
+<body>
+<header> <img class="logo" src="images/logoo.png" alt="logo" style="float:left;height:150px"> <h1>
+  Flex online Shopping</h1><div class="h2"> <h2></div> <br>Nairobi Kenya .. <br> Our Trusted Shop</h2> </header>
+<div class="introduction">
+<p class="welcome"><b> FLEX ELECTRONICS DEALERS IN ONLINE SHOPPING OF WOOFERS ,MOBILE PHONES AND WOOFERS. </b><br></p>
+<P id="val"></P>
+
+<button class="btn"><a href="loginform/loginform.php">LOGIN</a></button>
+ <button class="btn" ><a href="registration/register.php">create an account</a></button> <button class="btn"> 
+ <a class="mail" href="mailto:wilfredgicharu254@gmail.com">Send Email</a></button>
+ <button class="btn" onclick="vall()"><a href="tel:0748760186">CALL</a></button> 
+
+
+ <script>
+
+     function vall(){
+         document.getGetElementsByid("val").innerHTML="LOGGED IN SUCCESSIFULLY";
+     }
+ </script>
+
+</div>
+ 
+<h1> the following are the top items in the market</h1>
+        <div class="top-items">
+        
+          <div class="desktop">
+             <img src="images/delldesktop4.png" alt="">
+             <p> dell desktop with : <br> cpu 4GB RAM and 500GB ROM <br> MOUSE AND
+              KEYBOARD <br> windows 10 PRO N <br>  <a href="loginform/loginform.php">buy now</a></p>
+          </div >
+          <div class="topphone">
+             <img src="images/oppo1.png" alt="">
+             <p> oppo A10  with : <br> 4GB RAM and 32GB ROM <br> front and back camera
+              16pixels <br> fingerprint and face unlock <br>  <a href="loginform/loginform.php">buy now</a></p>
+          
+          </div>
+          <div class="topphone2">
+             <img src="images/aucc5.jpeg" alt="" style="height:240px; width:240px;">
+             <p> AUCC STERIO SPEAKER: <br> 2 SPEAKERS AND REMOTE<br> 
+             BLUETOOTH ENABLED <br> HIGH AUDIO AMPLIFIER <br>  <a href="loginform/loginform.php">buy now</a></p>
+          
+          </div>
+          <div class="topphone2">
+             <img src="images/sumsung2.jpg" alt="" style="height:240px; width:240px;">
+             <p> SUMSUNG LAPTOP  CORE i7: <br> 8GB RAM and 1TB ROM <br> TOUCH SCREEN AND 360 AUTO ROTATE
+              <br> WINDOWS 10 PRO <br>  <a href="loginform/loginform.php">buy now</a></p>
+          
+          </div>
+          <div class="topphone2">
+             <img src="images/mouse.jpg" alt="" style="height:240px; width:240px;">
+             <p> wired mouse : <br>5 metres sensitivity <br> built in selfcharge battery 
+                <br>  <a href="loginform/loginform.php">buy now</a></p>
+          
+          </div>
+         
+          
+            
+          
+        </div>
+
+
+
+</div>
+<div class="about" >
+ 
+</div>
+<div class="foot">
+
+     <div class="container">
+       <div class="contacts">
+       <ul> <h1>contacts</h1>
+       <li><a href="mailto:wilfredgicharu254@gmail.com">Send Email</a></li>
+       <li>contacts<a href="tel:0748760186">0748760186</a></li>
+       <li>tweeter:wilfredGicharu</li>
+       </ul>
+    </div>
+    <div class="contacts">
+       <ul> <h1>other pages</h1>
+       <li><a href="about/aboutus.php">about</a></li>
+       <li><a href="tel:0748760186">customer care</a></li>
+       <li><a href="adminpage/adminlogin.php">Admin</a></li>
+       <li>tweeter:wilfredGicharu</li>
+       </ul>
+    </div>
+    <div class="container">
+      <ul> <h1>products</h1>
+       <li><a href="https//:sony.php">Tvs</a></li>
+       <li><a href=""></a>woofers</li>
+       <li>fridges</li>
+       <li>Electrical Appliances</li>
+       <li>Phones</li>
+      </ul>
+    
+    </div>
+    <div class="container">
+      <ul> <h1>Our stores</h1>
+       <li>Nakuru:pipeline Near Equity bank :0748678138</a></li>
+       <li>Meru: Along Chuka university way :0748678138</a></li>
+       <li>Murang'a:Along Ngeka Center :0748678138</a></li>
+       <li>Thika:Thika City Mall Room47F :0748678138</a></li>
+      </ul>
+    
+    </div>
+
+
+    </div>
+</div>
+
+
+ <p style="text-align:center">Flex Online shop System</p>   
+</body>
+</html>
